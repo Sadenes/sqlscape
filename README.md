@@ -9,7 +9,7 @@ Preferably, you can download SQLscape by cloning the Git repository:
 ```bash
 git clone https://github.com/Sadenes/sqlscape.git
 chmod +x sqlscape.sh
-
+```bash
 ## Usage
 To start using SQLscape, follow these steps:
 
@@ -20,3 +20,4 @@ Run the script with appropriate options:
 ```bash
 ./sqlscape.sh -l urls.txt -p payloadssqli.txt
 ./sqlscape.sh -u http://example.com/page?id=1 -p payloadssqli.txt
+```bash

@@ -1,2 +1,2 @@
 # sqlscape
-SQLscape es una herramienta en Bash diseñada para detectar vulnerabilidades de inyección SQL en URLs mediante el uso de payloads específicos. Esta utilidad automatiza el proceso de verificación de seguridad al enviar solicitudes HTTP modificadas con payloads SQL conocidos y analizar las respuestas para detectar posibles vulnerabilidades.
+SQLscape is a Bash tool designed to detect SQL injection vulnerabilities in URLs using specific payloads. This utility automates the security verification process by sending modified HTTP requests with known SQL payloads and analyzing the responses to detect potential vulnerabilities.

@@ -4,8 +4,19 @@ SQLscape es una herramienta en Bash diseñada para detectar vulnerabilidades de 
 
 ## Installation
 
-Preferiblemente, puedes descargar SQLscape clonando el repositorio Git:
+Preferably, you can download SQLscape by cloning the Git repository:
 
 ```bash
 git clone https://github.com/Sadenes/sqlscape.git
+chmod +x sqlscape.sh
 
+## Usage
+To start using SQLscape, follow these steps:
+
+Make sure you have curl installed on your system.
+Navigate to the directory where SQLscape is cloned.
+Run the script with appropriate options:
+
+```bash
+./sqlscape.sh -l urls.txt -p payloadssqli.txt
+./sqlscape.sh -u http://example.com/page?id=1 -p payloadssqli.txt

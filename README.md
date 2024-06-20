@@ -5,11 +5,11 @@ SQLscape is a Bash tool designed to detect SQL injection vulnerabilities in URLs
 Installation
 ----
 To download SQLscape and prepare it for use, follow these steps:
-```bash
+
 git clone https://github.com/Sadenes/sqlscape.git
 
 chmod +x sqlscape.sh
-```bash
+
 
 Usage
 ----
